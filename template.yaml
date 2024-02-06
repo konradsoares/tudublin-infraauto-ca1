@@ -1,0 +1,9 @@
+---
+Resources:
+  TUDublinEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      AvailabilityZone: us-east-1a
+      InstanceType: t2.micro
+      KeyName: vockey
+      ImageId: ami-0277155c3f0ab2930
